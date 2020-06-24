@@ -1,0 +1,42 @@
+[
+    {
+        "name": "iPhone 11",
+        "price": "15.000.000 vnd",
+        "image": "IMG/iphone/apple-iphone-11.jpg"
+    },
+    {
+        "name": "iPhone 11 Pro Max",
+        "price": "30.000.000 vnd",
+        "image": "IMG/iphone/ip11promax.jpg"
+    },
+    {
+        "name": "iPhone 8",
+        "price": "10.000.000 vnd",
+        "image": "IMG/iphone/ip8.jpg"
+    },
+    {
+        "name": "iPhone 8 plus",
+        "price": "12.000.000 vnd",
+        "image": "IMG/iphone/ip8plus.jpg"
+    },
+    {
+        "name": "iPhone X",
+        "price": "20.000.000 vnd",
+        "image": "IMG/iphone/ipX.webp"
+    },
+    {
+        "name": "iPhone XS Max",
+        "price": "25.000.000 vnd",
+        "image": "IMG/iphone/ipXSmax.webp"
+    },
+    {
+        "name": "iPhone XR",
+        "price": "15.000.000 vnd",
+        "image": "IMG/iphone/ipXR.jpg"
+    },
+    {
+        "name": "iPhone XS",
+        "price": "15.000.000 vnd",
+        "image": "IMG/iphone/ip12.jpg"
+    }
+]

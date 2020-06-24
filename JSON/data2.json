@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Samsung galaxy S8",
+        "price": "6.000.000 vnd",
+        "image": "IMG/Samsung/s8-bac.png"
+    },{
+        "name": "Samsung galaxy S8 Plus",
+        "price": "7.000.000 vnd",
+        "image": "IMG/Samsung/s8-plus-b.jpg"
+    },{
+        "name": "Samsung galaxy S7",
+        "price": "5.000.000 vnd",
+        "image": "IMG/Samsung/s7.jpg"
+    },{
+        "name": "Samsung galaxy S7 Edge",
+        "price": "4.599.000 vnd",
+        "image": "IMG/Samsung/s7-edge-blue.jpg"
+    },{
+        "name": "Samsung galaxy Note 8",
+        "price": "8.000.000 vnd",
+        "image": "IMG/Samsung/galaxy-note-8.jpg"
+    },{
+        "name": "Samsung galaxy Note 9",
+        "price": "11.000.000 vnd",
+        "image": "IMG/Samsung/samsung_galaxy_note_9.webp"
+    },{
+        "name": "Samsung galaxy Note 10",
+        "price": "6.000.000 vnd",
+        "image": "IMG/Samsung/samsung-galaxy-note-10.jpg"
+    },{
+        "name": "Samsung galaxy S20",
+        "price": "17.490.000 vnd",
+        "image": "IMG/Samsung/ss20.jpg"
+    },{
+        "name": "Samsung galaxy S20 Ultra",
+        "price": "25.990.000 vnd",
+        "image": "IMG/Samsung/ss20ultra.jpg"
+    }
+]

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="CSS/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.theme.default.min.css">
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="CSS/custom-2.css">
+    <link rel="icon" href="IMG/logo/s.jpg">
+    <style>
+        td>button{
+            width: 50px;
+            text-align: center;
+            border:none;
+            background-color: #fc7c19;
+        }
+        td{
+            text-align: center;
+            padding-top: 45px;
+        }
+        tr{
+            text-align: justify;
+        }
+        tr th{
+            text-transform: uppercase;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="menu-pc">
+        <div class="menu-left">
+            <div class="">
+                <div class="circle-left">
+                    <div class="main-menu-left">
+                        <ul>
+                            <li><a href="home.html">Trang chủ</a></li>
+                            <li><a href="product.html">Sản phẩm</a></li>
+                            <li><a href="about.html">Về chúng tôi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo text-center">
+            <div class="">
+                <img src="IMG/logo/s.jpg" alt="" class="rounded-circle logo" style="width: 50px;">
+            </div>
+            
+        </div>
+        <div class="menu-right">
+            <div class="circle-right">
+                <div class="main-menu-right">
+                    <ul>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li>
+                            <a href="member.html">Thành viên</a>
+                        </li>
+                        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-mobile">
+        <div class=" text-left">
+            <btn id="click-menu" class="btn btn-menu-mobile">
+                <i class="fas fa-bars"></i>
+            </btn>
+            <div class=" main-menu-mobile" id="circle-left-menu">
+                <div class="box">
+                    <ul>
+                        <li><a href="home.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li><a href="member.html">Thành viên</a></li>
+                        <li><a href="cart.html">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end-header -->
+    
+    <div class="clearfix">
+    
+    </div>
+    
+
+    <!-- end header -->
+    <!-- creat page -->
+    <div class="container">
+        <div class="">
+            <div class="cart">
+                <div class="">
+                    <div class="product_title">
+                        <h3>Giỏ hàng </h3>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        
+                        
+                            <tr>
+                                <th>STT</th>
+                                <th>Hình ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Giá bán</th>
+                                <th>Số lượng</th>
+                                <th></th>
+                            </tr>
+                            <tr id="">
+                                <td>1</td>
+                                <td class="text-center" style="width: 200px;">
+                                    <img src="IMG/iPhone/iphone11-black-select-2019.webp" alt="" width="40%">
+                                </td>
+                                <td>iPhone 11 Pro Max</td>
+                                <td>30.000.000 VNĐ</td>
+                                <td>
+                                    01
+                                </td>
+                                <td>
+                                    <button><i class="fas fa-times-circle"></i></button>
+                                </td>
+                            </tr>
+                            <tr id="">
+                                <td>2</td>
+                                <td class="text-center" style="width: 200px;">
+                                    <img src="IMG/iPhone/iphone11-red-select-2019.webp" alt="" width="40%">
+                                </td>
+                                <td>iPhone 8 Plus</td>
+                                <td>13.000.000 VNĐ</td>
+                                <td>
+                                    01
+                                </td>
+                                <td>
+                                    <button><i class="fas fa-times-circle"></i></button>
+                                </td>
+                            </tr>
+                            <tr id="">
+                                <td>3</td>
+                                <td class="text-center" style="width: 200px;">
+                                    <img src="IMG/iPhone/iphone11-green-select-2019.webp" alt="" width="40%">
+                                </td>
+                                <td>iPhone 11</td>
+                                <td>15.000.000 VNĐ</td>
+                                <td>
+                                    01
+                                </td>
+                                <td>
+                                    <button><i class="fas fa-times-circle"></i></button>
+                                </td>
+                            </tr>
+                    
+                    </table>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered ">
+                        <tr>
+                            <td style="width:25.0%"><b><h4>Tổng giá trị đơn hàng</h4></b></td>
+                            <td>58.000.000 VNĐ</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page_body page_border">
+                    <div class="account-title">
+                        <label for="">Thông tin người nhận</label>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-lg-6">
+                            
+                            <form action="" method="POST" role="form" id="">
+                                
+                                <div class="form-group">
+                                    <label for="">Tên</label>
+                                    <input type="text" class="form-control" id="" name="rlastname" placeholder="Nhập tên người nhận" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Số điện thoại</label>
+                                    <input type="text" class="form-control" id="" name="rfirstname" placeholder="Nhập số diện thoại người nhận" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Email </label>
+                                    <input type="phone" class="form-control" id="" name="rphone" placeholder="Nhận email để xác nhận đơn hàng" required >
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Địa chỉ nhận hàng</label>
+                                    <input type="email" class="form-control" id="" name="remail" placeholder="Số nhà/ Phòng, Tòa, Đường/Phố,..." required>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">Quận/ Huyện</label>
+                                            <div class="pull-right">
+                                                <select name="" id="">
+                                                    <option value="">Hoàn Kiếm</option>
+                                                    <option value="">Ba Đình</option>
+                                                    <option value="">Cầu Giấy</option>
+                                                    <option value="">Đống Đa</option>
+                                                    <option value="">Bắc Từ Liêm</option>
+                                                    <option value="">Nam Từ Liêm</option>
+                                                </select>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">Tỉnh/ Thành Phố</label>
+                                            <div class="pull-right">
+                                                <select name="" id="">
+                                                    <option value="">Hà Nội</option>
+                                                    <option value="">Hồ Chí Minh</option>
+                                                    <option value="">Cao Bằng</option>
+                                                    <option value="">Nghệ An</option>
+                                                    
+                                                </select>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </form>
+                        </div> 
+                        <div class="col-lg-6">
+                            
+                            <form action="" method="POST" role="form">
+                                <div class="pay-ment">
+                                    <div class="form-group">
+                                        <label for="">Yêu cầu thêm</label>
+                                        <div class="form-group">
+                                            <input type="radio"> Gọi người khác nhận hàng (Nếu có)
+                                        </div>  
+                                        <div class="form-group">
+                                            <input type="radio"> Chuyển danh bạ, dữ liệu qua máy mới
+                                        </div> 
+                                        <div class="form-group">
+                                            <input type="radio"> Mang thêm điện thoại khác để bạn xem
+                                        </div> 
+                                        <div class="form-group">
+                                            <input type="radio"> Xuất hóa đơn công ty
+                                        </div>   
+                                           
+                                    </div>
+                                    
+                                    <div class="form-group ">
+                                        <input type="text" placeholder="Nhập tên công ty" style="font-size: 16px;">
+                                    </div>    
+                                    <div class="form-group ">
+                                        <input type="text" placeholder="Địa chỉ">
+                                    </div>    
+                                    <div class="form-group ">
+                                        <input type="text" placeholder="Mã số thuế">
+                                    </div>    
+                                        
+      
+                                </div>
+                            </form>
+                            
+                        </div>           
+                                
+                    </div>
+                </div>
+                <div class="page_body page_border">
+                    <div class="account-title">
+                        <label for="">Tiến hành thanh toán</label>
+                    </div>    
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            
+                            <form action="" method="POST" role="form">
+                                <div class="form-group">
+                                    <label for="">Ngân hàng</label>
+                                    <div class="">
+                                        <select name="" id="">
+                                            <option value="">VIETCOMBANK</option>
+                                            <option value="">AGRIBANK</option>
+                                            <option value="">TECHCOMBANK</option>
+                                            <option value="">TIENPHONG BANK</option>
+                                            <option value="">VIB</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                            
+                                <div class="form-group">
+                                    <label for="">Tên chủ tài khoản</label>
+                                    <input type="text" class="form-control" id="" placeholder="Nhập tên chủ tài khoản" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Nhập số thẻ</label>
+                                    <input type="text" class="form-control" id="" placeholder="Nhập số thẻ" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Nhập CVV</label>
+                                    <input type="text" class="form-control" id="" placeholder="Nhập 3 chữ số sau thẻ" required>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-custom btn-pay" onclick="alert('Bạn đã mua hàng thành công')">Thanh toán</button>
+                            </form>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+          
+                            
+    </div>
+    <!-- end page -->
+    <!-- footer -->
+    
+    <!-- <div class="clearfix">
+        
+    </div> -->
+    
+    <div class="footer">
+        <div class=" ">
+            <div class="text-center">
+                Copyright <i class="far fa-copyright"></i> 2020 by <span>Hoa Thuy Tien & Le Quang Huy</span> All rights reserved            </div>
+                
+            </div>
+    </div>    
+    </div>
+
+     <!-- copyright -->
+     <!-- Latest compiled and minified JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="CSS/OwlCarousel/dist/owl.carousel.min.js"></script>
+     <!-- custom-js -->
+    <script src="js/menu.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/cus-carousel.js"></script>
+    <!-- <script src="js/register.js"></script> -->
+</body>
+</html>

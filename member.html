@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member</title>
+    <link rel="icon" href="IMG/logo/s.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="CSS/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.theme.default.min.css">
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="CSS/custom-2.css">
+    <style>
+        .footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="menu-pc">
+        <div class="menu-left">
+            <div class="">
+                <div class="circle-left">
+                    <div class="main-menu-left">
+                        <ul>
+                            <li><a href="home.html">Trang chủ</a></li>
+                            <li><a href="product.html">Sản phẩm</a></li>
+                            <li><a href="about.html">Về chúng tôi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo text-center">
+            <div class="">
+                <img src="IMG/logo/s.jpg" alt="" class="rounded-circle logo" style="width: 50px;">
+            </div>
+            
+        </div>
+        <div class="menu-right">
+            <div class="circle-right">
+                <div class="main-menu-right">
+                    <ul>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li>
+                            <a href="member.html">Thành viên</a>
+                        </li>
+                        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-mobile">
+        <div class=" text-left">
+            <btn id="click-menu" class="btn btn-menu-mobile">
+                <i class="fas fa-bars"></i>
+            </btn>
+            <div class=" main-menu-mobile" id="circle-left-menu">
+                <div class="box">
+                    <ul>
+                        <li><a href="home.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li><a href="member.html">Thành viên</a></li>
+                        <li><a href="cart.html">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="clearfix">
+    
+    </div>
+    
+
+    <!-- end header -->
+    <!-- creat page -->
+          <!-- creat page -->
+          <div class="page-body">
+            <div class="container">
+                <div class="product_title"> 
+                    <h3><i class="fas fa-question-circle"></i> Bạn đã là thành viên chưa   </h3> 
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button type="button" class="btn btn-custom pull-right">
+                            <a href="login.html">
+                                <h3>
+                                    YES
+                                </h3>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-custom">
+                            <a href="register.html">
+                                <h3>
+                                    <a href="register.html">NO</a>
+                                </h3>
+                            </a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="product_title"> 
+                    <h3><i class="fas fa-check-circle"></i>   Kiểm tra thành viên </h3> 
+                </div>
+                
+                    <div class="form-group">
+                        <input type="text" placeholder="Nhập số điện thoại" ng-model="search_customer">
+                        <button class=" btn-custom" id="check"> <i class="fas fa-search" ></i></button>
+                    </div>    
+                    <div class="form-group" >
+                        <div id="cus_phone" class="hidden">Số điện thoại đã đăng kí thành viên</div>
+                    </div>
+                
+            </div>
+            <div class="container">
+                <div class="product_title"> 
+                    <h3><i class="fas fa-gifts"></i>    Ưu đãi </h3>
+                </div>
+                <div class="table-responsive" style="margin-bottom: 45px;">
+                    <table   style="width: 100%; border-color: #333333; border-width: 1px; border-style: solid;">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">Cấp thành viên</th>
+                                <th rowspan="2" style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">Điểm tích lũy</th>
+                                <th colspan="2"style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    Mức chiết khấu
+                                </th>
+                            </tr>
+                            <tr>
+                                <th style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">Tổng giá trị hóa đơn </th>
+                                <th style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">Ưu đãi sinh nhật</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p><strong>New</strong></p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>&gt;0đ &ndash; 3 triệu</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>0%</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>0.000 vnđ</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p><strong>Member</strong></p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>&gt;3 triệu &ndash; 30 triệu</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>0.25%</p>
+                                </td>
+                                
+                                <p class="pull-right">(Tối đa: 200.000đ)</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>100.000đ</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p><strong>Vip</strong></p>
+                                    </td>
+                                    <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>&gt;130 triệu</p>
+                                    </td>
+                                    <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>1%</p>
+                                    </td>
+                                    <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                    <p>200.000đ</p>
+                            </tr>
+                            <tr>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p><strong>Super Vip</strong></p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>&gt;130 triệu</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>1%</p>
+                                </td>
+                                <td style="border-color: #333333; border-style: solid; border-width: 1px; text-align: center;">
+                                <p>200.000đ</p>
+                                </td>
+                            </tr>
+                                </tbody>
+                                </table>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    <!-- end page -->
+
+    <!-- end page -->
+    <!-- footer -->
+    
+    <div class="clearfix">
+        
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="text-center">
+                Copyright <i class="far fa-copyright"></i> 2020 by <span>Hoa Thuy Tien & Le Quang Huy</span> All rights reserved            </div>
+        </div>
+    </div>
+     <!-- copyright -->
+     <!-- Latest compiled and minified JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="CSS/OwlCarousel/dist/owl.carousel.min.js"></script>
+     <!-- custom-js -->
+   
+    <!-- <script src="js/register.js"></script> -->
+</body>
+</html>
