@@ -30,8 +30,27 @@
     border-style: solid;
     border-radius: 20px;
 }
+.back-to-top{
+    width: 30px;
+    height: 30px;
+    /* padding: 0px 8px; */
+    background-color: var(--cam);
+    color: var(--den);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 1em;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    display: none;
+    font-weight: bold;
+}
 /* specific css */
 /* css header */
+
     /*css menu*/
     /* .bgc{
         background-color: var(--cam);
@@ -48,6 +67,7 @@
         /* position: fixed;
         top: 0; */
     }
+
     .rounded-circle{
         width: 200px;
     }
@@ -63,11 +83,11 @@
     }
     .main-menu-left{
         margin-right: 25px;
-        padding-left: 200px;
+        /* padding-left: 200px; */
     }
     .main-menu-right{
         margin-left: 25px;
-        padding-right: 200px;
+        /* padding-right: 200px; */
     }
     .main-menu-left ul li,.main-menu-right ul li{
         list-style: none;
@@ -110,12 +130,11 @@
     /* end css menu-pc*/
     /* css menu-mobile */
     .menu-mobile .main-menu-mobile{
-        width: 500px;
+        width: 350px;
         background-color: var(--cam_trang);
     }
     .main-menu-mobile ul li{
         list-style: none;
-        
         padding-top:5px;
         padding-bottom:5px ;
     }
@@ -157,24 +176,18 @@
         border: 1px solid var(--cam);
     }    
     /* end css menu-mobile */
-    
-    /* reponsive menu */
-    @media screen and (max-width: 768px){
-	.menu-pc{display: none;}
-	.menu-mobile{display: block;}
-    }
-    @media screen and (min-width: 769px){
-    .menu-mobile{display: none;}
-    }
-/* css footer */
-.footer{
+    /* css footer */
+    .footer{
     margin-top: 60px;
     background-color: var(--den);
     color: var(--trang);
-}
-.footer span{
+    width: 100%;
+    /* position: fixed;
+    bottom: 0 */
+    }
+    .footer span{
     color: var(--cam);
-}
+    }
 /* css home */
 .carousel-inner img {
     width: 100%;
@@ -266,7 +279,7 @@
     width: 35px;
     height: 35px;
     padding-top:7px;
-    padding-left: 8.5px;
+    padding-left: 10px;
 }
 .fly-text span:hover i{
     background-color: var(--cam);
@@ -325,7 +338,7 @@
 	box-sizing: border-box; */
 }
 .khung-img>img:hover {
-	transform: scale(1.7)
+	transform: scale(1.2)
 }
 /* css product */
 .product_promotion{
@@ -452,3 +465,15 @@ padding-top: 5px;
     color: var(--cam);
 }
 /* end css */
+
+ /* reponsive  */
+ @media screen and (max-width: 768px){
+	.menu-pc{display: none;}
+    .menu-mobile{display: block;}
+    
+    }
+    @media screen and (min-width: 769px){
+    .menu-mobile{display: none;}
+    .back-to-top{display: block;}
+
+    }

@@ -1,0 +1,38 @@
+.test-1{
+    
+    background-color: orange;
+}
+.test-2{
+    
+    background-color: #32a852;
+}
+.test-3{
+    
+    background-color: #4281d4;
+}
+.test-4{
+    
+    background-color: #e890cf;
+}
+.height{
+    height: 850px;
+}
+.blog_bgc{
+    background-color: #face8c;
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.blog_title{
+    margin-top: 45px;
+    margin-bottom: 15px;
+    
+}
+.blog_img{
+    border: 1px solid orange;
+    padding: 5px;
+}
+.blog_text{
+    text-align: justify;
+    padding-top: 15px;
+}
