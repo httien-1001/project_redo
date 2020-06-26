@@ -6,7 +6,6 @@ $('#click-menu').click(function() {
 });
 $(window).scroll(function () { 
     var h= $(window).scrollTop();
-    var height=$(window).scrollTop();
     console.log(h);
     if(h>500){
        $('.back-to-top').fadeIn(500);
@@ -19,19 +18,49 @@ $(window).scroll(function () {
         $('.back-to-top').fadeOut(500);
     };
 });
+function show() {
+    $('#table-search-result').removeClass('hidden');
+}
+function hide() {
+    
+    
+        $('#table-search-result').addClass('hidden');
+       
+   
+
+}
 var app = angular.module('demoApp',[]);
 		app.controller('DemoCtrl',function($scope,$http){
             $http.get('JSON/data.json').then(function(res){
                 $scope.list_iphone= res.data
                 
             });
+            
             $http.get('JSON/data2.json').then(function(res){
                 $scope.list_samsung= res.data
                 
             });
 
-            $scope.tien="hello";
+            $http.get('JSON/iphone2.json').then(function(res){
+                $scope.list_product= res.data
+                
+            });
+            $http.get('JSON/iphone_8.json').then(function(res){
+                $scope.iphone_8= res.data
+                
+            });
+            $http.get('JSON/iphone_x.json').then(function(res){
+                $scope.list_product_x= res.data
+                
+            });
+            $http.get('JSON/iphone_xs.json').then(function(res){
+                $scope.product_11= res.data
+                
+            });
+            
+            
         });
+
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:7,

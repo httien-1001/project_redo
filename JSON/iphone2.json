@@ -1,0 +1,134 @@
+[
+    {
+        "name": "iPhone 11-256G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone 11"
+    },
+    {
+        "name": "iPhone 11-512G",
+        "price": "16.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone 11"
+    },
+    {
+        "name": "iPhone 11 Pro-64G",
+        "price": "30.000.000 vnd",
+        "image":"IMG/iPhone/iphone 11_2.jpg",
+        "type":"iphone 11"
+    },
+    {
+        "name": "iPhone 11 Pro-128G",
+        "price": "30.000.000 vnd",
+        "image":"IMG/iPhone/iphone 11_2.jpg",
+        "type":"iphone 11"
+    },
+    {
+        "name": "iPhone 8-64G",
+        "price": "10.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone 8-128G",
+        "price": "10.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone 8-512G",
+        "price": "10.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone 8 plus-64G",
+        "price": "12.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",   
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone 8 plus-128G",
+        "price": "12.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",   
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone 8 plus-512G",
+        "price": "12.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",   
+        "type":"iphone 8"
+    },
+    {
+        "name": "iPhone X-64G",
+        "price": "20.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",   
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone X-128G",
+        "price": "20.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone X-512G",
+        "price": "20.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XS-64G",
+        "price": "25.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XS-128G",
+        "price": "25.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XS-512G",
+        "price": "25.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XR-64G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XR-128G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone XR-512G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone x"
+    },
+    {
+        "name": "iPhone 12-64G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone 12"
+    },
+    {
+        "name": "iPhone 12-128G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone 12"
+    },
+    {
+        "name": "iPhone 12-512G",
+        "price": "15.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp", 
+        "type":"iphone 12"
+    }
+]

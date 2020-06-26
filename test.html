@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Source code</title>
+    <title>Product</title>
     <link rel="icon" href="IMG/logo/s.jpg">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -15,15 +15,6 @@
 
     <!-- custom-css -->
     <link rel="stylesheet" href="CSS/custom-2.css">
-    <link rel="stylesheet" href="CSS/test.css">
-    <style>
-        body{
-            background-color: #ffd6a3;
-        }
-        .menu-pc{
-            background-color: #666666;
-        }
-    </style>
 </head>
 <body>
     <span class="back-to-top">
@@ -61,7 +52,7 @@
                         <li>
                             <a href="member.html">Thành viên</a>
                         </li>
-                         <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li> 
+                        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -89,18 +80,52 @@
     </div>
     <!-- end-header -->
     <!-- page -->
-    <ul class="feature-nav">
-        <li id="overview" class="text-center"><i class="icon-tasks icon-small"></i>
-            <br />Overview</li>
-    </ul>
-    <div class="overview">
-         <h1>Features</h1>
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-3">
+                <div class="menu_product">
+                <nav>
+                    <ul>
+                        <li><a href="#iphone_8">iPhone 8/8 plus</a></li>
+                        <li><a href="#iphone_x">iPhone X</a></li>
+                        <li><a href="#iphone_xs">iPhone X/XS Max</a></li>
+                        <li><a href="#iphone_11">iPhone 11</a></li>
+                        <li><a href="#iphone_11_pro">iPhone 11 Pro/Pro Max</a></li>
+                        
+                    </ul>
+                </nav>
+                </div>
+           </div>
+           <div class="col-lg-9">
+                <div class="col-lg-12">
+                    <button class="btn btn-product" onclick="show()">Tìm kiếm sản phẩm</button>
+                </div>
+                <div id="table-search-result" class="hidden">
+                    <div class="col-lg-12">
+                        <input type="text" placeholder="Nhập sản phẩm bạn muốn tìm kiếm" ng-model='search_product' style="width:80%">
+                        <button class="btn-cancel" onclick="hide()"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="col-lg-12">
+                        <table class="table-bordered table-search" style="width: 100%;">
+                            <tr>
+                                <td style="text-align: center;">STT</td>
+                                <td style="text-align: center;">Tên sản phẩm</td>
+                                <td style="text-align: center;">Giá bán</td>
+                                <td style="text-align: center;">Chi tiết</td>
+                            </tr>
     
-        <div class="feature-left pull-left">Content here</div>
-        <div class="feature-right pull-right">right content</div>
-        <div class="clearfix"></div>
-        <div class="feature-bottom">bottom content</div>
-    </div>
+                            <tr ng-repeat="product in list_product | filter: {name:search_product}">
+                                <td style="text-align: center;">{{$index+1}}</td>
+                                <td >{{product.name}}</a></td>
+                                <td style="text-align: center;">{{product.price}}</td>
+                                <td style="text-align: center;"><a href="iphone.html"><i class="fas fa-info-circle"></i></a></td>
+                            </tr>    
+                        </table>
+                    </div>
+                </div>
+           </div>
+        </div>
+   </div>
     <!-- end-page -->
     <!-- footer -->
     <div class="footer">
@@ -117,52 +142,5 @@
     <script src="CSS/OwlCarousel/dist/owl.carousel.min.js"></script>
      <!-- custom-js -->
     <script src="js/all-in-one.js"></script>
-    <script>
-            $(document).ready(function () {
-        $('.feature-nav li').on('click', function () {
-            var item_clicked = $(this).attr('id');
-            features();
-            $('.overview').delay(1000).queue(function () {
-                features_back(item_clicked);
-            });
-        });
-    });
-
-    function features() {
-        $('.overview h1').animate({
-            right: "1000px"
-        }, 300);
-        $('.overview .feature-left').animate({
-            right: "1000px"
-        }, 700);
-        $('.overview .feature-right').animate({
-            bottom: "300px",
-            opacity: '0'
-        }, 400);
-        $('.overview .feature-bottom').animate({
-            top: "100px",
-            opacity: '0'
-        }, 400);
-
-    }
-
-    function features_back(item_clicked) {
-        $('.overview h1').html('New Header').animate({
-            right: "0"
-        }, 300);
-        $('.overview .feature-left').html('New Left Content').animate({
-            right: "0"
-        }, 500);
-        $('.overview .feature-right').html('New right Content').animate({
-            bottom: "0",
-            opacity: '1'
-        }, 400);
-        $('.overview .feature-bottom').html('New bottom Content').animate({
-            top: "0",
-            opacity: '1'
-        }, 400);
-    }
-    </script>
-    </script>
 </body>
 </html>        

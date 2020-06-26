@@ -120,42 +120,38 @@
             <a class="carousel-control-next" href="#demo" data-slide="next">
                 <span class="carousel-control-next-icon" style="color: #fc7c19;"></span>
             </a>
+            </div>
         </div>
-    </div>
         <!-- end carousel -->
         <!-- iphone -->
         <!-- product -->
         <div class="container">
             <div class="product_container">
                 <div class="product_title">
-                    <h3><i class="fab fa-apple"></i>Apple </h3>
+                    <h3><i class="fab fa-apple"></i><a href="product.html">Apple</a> </h3>
                 </div>
                 <div class="item_container">
                     
                     <div class="row">
                         <!-- new item -->
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3" ng-repeat="product in list_iphone">
-                            <div class="thumbnail p_container demo-fly ">
-                                <img ng-src="{{product.image}}" alt="" class="img-fluid">
-                                <div class="fly">
-                                    <div class="fly-text">
-                                        <a href="product.html"  style="padding-left: 15px;">
-                                            <span class=""><i class="fas fa-mobile rounded-circle"></i></span>
-                                        </a>
-                                        <a href="cart.html">
-                                            <span class="">  <i class="fas fa-shopping-cart rounded-circle"></i></span>
-                                        </a>
-                                        
+                            
+                            <div class="thumbnail   border-01">
+
+                                
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img ng-src="{{product.image}}" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <span>{{product.name}}</span>
+                                            <span>{{product.price}}</span> 
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="caption">
-                                        <h3>{{product.name}}</h3>
-                                        <p>
-                                            {{product.price}}
-                                        </p>
-                                </div>
+                                
                             </div>
-                            
                             
                         </div>
                         <!-- end new item -->
@@ -165,17 +161,7 @@
                 </div>
             </div>
         </div>
-        <!-- blog -->
-
-        <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                   <div class="blog_container blog-1 khung-img">
-                    <img src="IMG/iPhone/ios14__djivkarbz3gy_large_2x.jpg" alt="" class="img-fluid">
-                   </div>
-               </div>
-            </div>
-        </div> 
+        
         <!-- end iphone -->
         <!-- product -->
         <div class="container">
@@ -188,25 +174,21 @@
                     <div class="row">
                         <!-- new item -->
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3" ng-repeat="product in list_samsung">
-                            <div class="thumbnail p_container demo-fly ">
-                                <img ng-src="{{product.image}}" alt="" class="img-fluid">
-                                <div class="fly">
-                                    <div class="fly-text">
-                                        <a href="product.html">
-                                            <span class=""><i class="fas fa-mobile rounded-circle" ></i></span>
-                                        </a>
-                                        <a href="cart.html">
-                                            <span class="">  <i class="fas fa-shopping-cart rounded-circle"></i></span>
-                                        </a>
-                                        
+                            <div class="thumbnail   border-01">
+
+                                
+                                <div class="flip-card-2">
+                                    <div class="flip-card-inner-2">
+                                        <div class="flip-card-front-2">
+                                            <img ng-src="{{product.image}}" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="flip-card-back-2">
+                                            <span>{{product.name}}</span>
+                                            <span>{{product.price}}</span> 
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="caption">
-                                        <h3>{{product.name}}</h3>
-                                        <p>
-                                            {{product.price}}
-                                        </p>
-                                </div>
+                                
                             </div>
                             
                             
@@ -222,7 +204,7 @@
 
         <div class="container">
             <div class="product_title">
-                <h3><i class="fas fa-mobile-alt"></i>Tin tức về Samsung </h3>
+                <h3><i class="fas fa-mobile-alt"></i>Tin tức về điện thoại </h3>
             </div>
             <div class="row">
                 
@@ -231,11 +213,16 @@
                      <img src="IMG/Samsung/galaxynote10.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-               <div class="col-lg-9">
+               <div class="col-lg-3">
                    <div class="blog_container blog-1 khung-img">
                     <img src="IMG/Samsung/banner_7bai-57.jpg" alt="" class="img-fluid">
                    </div>
                </div>
+               <div class="col-lg-3">
+                    <div class="blog_container blog-1 khung-img">
+                        <img src="IMG/iPhone/ios14__djivkarbz3gy_large_2x.jpg" alt="" class="img-fluid">
+                     </div>
+                </div>
             </div>
         </div> 
     <!-- end-page -->

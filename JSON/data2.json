@@ -31,9 +31,5 @@
         "name": "Samsung galaxy S20",
         "price": "17.490.000 vnd",
         "image": "IMG/Samsung/ss20.jpg"
-    },{
-        "name": "Samsung galaxy S20 Ultra",
-        "price": "25.990.000 vnd",
-        "image": "IMG/Samsung/ss20ultra.jpg"
     }
 ]

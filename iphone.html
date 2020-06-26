@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoApp" ng-controller="DemoCtrl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="icon" href="IMG/logo/s.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="CSS/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/OwlCarousel/dist/assets/owl.theme.default.min.css">
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="CSS/custom-2.css">
+</head>
+<body>
+    <span class="back-to-top">
+        <div class="text-center">
+            <i class="fas fa-angle-up"></i> 
+        </div>
+    </span>
+    <!-- header  -->
+    <div class="menu-pc">
+        <div class="menu-left">
+            <div class="">
+                <div class="circle-left">
+                    <div class="main-menu-left">
+                        <ul>
+                            <li><a href="home.html">Trang chủ</a></li>
+                            <li><a href="product.html">Sản phẩm</a></li>
+                            <li><a href="about.html">Về chúng tôi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo text-center">
+            <div class="">
+                <img src="IMG/logo/s.jpg" alt="" class="rounded-circle logo" style="width: 50px;">
+            </div>
+            
+        </div>
+        <div class="menu-right">
+            <div class="circle-right">
+                <div class="main-menu-right">
+                    <ul>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li>
+                            <a href="member.html">Thành viên</a>
+                        </li>
+                        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-mobile">
+        <div class=" text-left">
+            <btn id="click-menu" class="btn btn-menu-mobile">
+                <i class="fas fa-bars"></i>
+            </btn>
+            <div class=" main-menu-mobile" id="circle-left-menu">
+                <div class="box">
+                    <ul>
+                        <li><a href="home.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li><a href="member.html">Thành viên</a></li>
+                        <li><a href="cart.html">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end-header -->
+    <!-- page -->
+   <div class="page_body ">
+    <div class="container">
+        <div class="product_title">
+            <h3><i class="fab fa-apple"></i>Thông tin sản phẩm </h3>
+        </div>
+        <div class="back-page">
+            <span><i class="fas fa-angle-left"></i> <a href="home.html">Trở về trang chủ</a></span>
+        </div>
+    </div>
+    <div class="container page_border">
+        
+        <div class="row">
+    
+            <div class="col-lg-4">
+                <div class="product_photo">
+                    <img src="IMG/iPhone/iphone11-green-select-2019.webp" alt="">
+                </div>
+                <div class="car-container">
+                    <div class="owl-carousel">
+                        <div class="items"> <img src="IMG/iPhone/iphone11-black-select-2019.webp" alt=""> </div>
+                        <div class="items"> <img src="IMG/iPhone/iphone11-green-select-2019.webp" alt=""> </div>
+                        <div class="items"> <img src="IMG/iPhone/iphone11-red-select-2019.webp" alt=""> </div>
+                        <div class="items"> <img src="IMG/iPhone/iphone11-white-select-2019.webp" alt=""> </div>
+                        <div class="items"> <img src="IMG/iPhone/iphone11-black-select-2019.webp" alt=""> </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4">
+                <div class="product_buy">
+                    <div class="row">
+    
+                        <div class="col-lg-12">
+                            <div class="title_buy">
+                                <h4>Địa điểm mua hàng </h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="option_buy">
+                                <select name="" id="input" class="form-control" required="required" size="1" style="padding: 7px; font-size: 16px;">
+                                    <option value="">Ha Noi</option>
+                                    <option value="">Ho Chi Minh</option>
+                                    <option value="">Da Nang</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_color">
+    
+                    <div class="row">
+    
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="title_buy">
+                                <h4>Dung lượng bộ nhớ</h4>
+                            </div>
+                        </div>
+    
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <button type="button" class="btn btn-custom">64GB</button>
+                            <button type="button" class="btn btn-custom">128GB</button>
+                            <button type="button" class="btn btn-custom">256GB</button>
+                        </div>
+    
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="product_promotion">
+                                <div class="promotion_wrapper" style="display:block">
+                                    <b class="promotion_header"><i class="fa fa-gift"></i> Khuyến mãi</b>
+    
+                                    <div class="">
+    
+                                        <div class="promotion_details">
+                                            <h4>Chương trình khuyến mại:</h4>
+                                            <div class="prom_detail">
+                                                <ul class="" style="margin-bottom: 0px">
+                                                    <li><a href="https://cellphones.com.vn/phu-kien/apple.html"
+                                                            rel="nofollow">Giảm 200.000đ khi mua kèm Tai nghe
+                                                            Airpods</a></li>
+                                                    <li><a href="https://cellphones.com.vn/thu-cu-doi-moi"
+                                                            rel="nofollow">Thu cũ đổi mới iPhone chính hãng VNA -
+                                                            Trợ giá tới 500.000Đ</a></li>
+                                                </ul>
+                                            </div>
+                                            <h4>Trả góp 0%:</h4>
+                                            <div class="prom_detail">
+                                                <ul class="el-promotion-pack" style="margin-bottom: 0px">
+                                                    <li>
+                                                        <a href="https://cellphones.com.vn/tra-gop"
+                                                            rel="nofollow">Trả góp lãi suất 0% với Home Credit. Trả
+                                                            trước 50%, kỳ hạn 6 tháng (Áp dụng trên GIÁ NIÊM YẾT,
+                                                            không áp dụng cùng các khuyến mại khác)
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="col-lg-4">
+                <div class="row">
+    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="product_situation">
+                            <b>
+                                <h5>Tình trạng</h5>
+                            </b>
+                            <span>
+                                Máy mới 100% , chính hãng Apple Việt Nam.
+                            </span>
+                            <span>
+                                CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam
+                                do Viettel phân phối
+                            </span>
+                        </div>
+                        <div class="product_situation">
+                            <b>
+                                <h6>Hộp bao gồm</h6>
+                            </b>
+                            <span>
+                                Máy, sạc, cáp, tai nghe, que lấy SIM, sách hướng dẫn
+                            </span>
+                        </div>
+                        <div class="product_situation">
+                            <b>
+                                <h6>Bảo hành</h6>
+                            </b>
+                            <span>
+                                Bảo hành chính hãng 12 tháng tại trung tâm bảo hành của Apple Việt Nam.
+                            </span>
+                            <span>Đổi mới trong 30 ngày tại CellphoneS nếu có lỗi nhà sản xuất</span>
+                        </div>
+                        <div class="product_situation">
+                            
+                            <div class="btn_pro">
+                                <button type="button" class="btn btn-custom"><a href="cart.html">Thêm vào giỏ hàng</a></button>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+    
+        </div>
+        <div class="row">
+            <div class=" col-lg-12">
+    
+    
+                <div class="title_buy">
+                    <h4>Thông số kĩ thuật</h4>
+                </div>
+    
+                <table class="table-bordered table">
+                    <tbody>
+                        <tr style="display: table-row;">
+                            <td>Hãng sản xuất</td>
+                            <td>Apple</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Kích thước</td>
+                            <td>143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Trọng lượng</td>
+                            <td>174 g (6.14 oz)</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Bộ nhớ đệm / Ram</td>
+                            <td>64 GB, 3 GB RAM</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Bộ nhớ trong</td>
+                            <td>64 GB</td>
+                        </tr>
+    
+                        <tr style="display: table-row;">
+                            <td>Loại màn hình</td>
+                            <td>Cảm ứng điện dung OLED, 16 triệu màu</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Kích thước màn hình</td>
+                            <td>5.8 inches</td>
+                        </tr>
+    
+    
+                        <tr style="display: table-row;">
+                            <td>Hệ điều hành</td>
+                            <td>iOS</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Phiên bản hệ điều hành</td>
+                            <td>11</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Chipset</td>
+                            <td>Apple A11 Bionic APL1W72</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>CPU</td>
+                            <td>2x 2.39 GHz Monsoon &amp; 4x 2.39 GHz Mistral</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>GPU</td>
+                            <td>Apple GPU (3 lõi đồ họa)</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Khe cắm thẻ nhớ</td>
+                            <td>Không</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Camera sau</td>
+                            <td>12 MP (f/1.8, 28mm) + 12 MP (f/2.4, 52mm), tự động lấy nét nhận diện theo giai đoạn,
+                                2x zoom quang học, OIS, 4 LED flash (2 tone)</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Camera trước</td>
+                            <td>7 MP (f/2.2, 32mm), 1080p@30fps, 720p@240fps, nhận diện khuôn mặt, HDR</td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Quay video</td>
+                            <td>2160p@24/30/60fps, 1080p@30/60/120/240fps</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Pin</td>
+                            <td>Li-ion 2716 mAh</td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+    
+            </div>
+        </div>
+       </div>
+   </div>
+    <!-- end-page -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="text-center">
+                Copyright <i class="far fa-copyright"></i> 2020 by <span>Hoa Thuy Tien & Le Quang Huy</span> All rights reserved            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="CSS/OwlCarousel/dist/owl.carousel.min.js"></script>
+     <!-- custom-js -->
+    <script src="js/all-in-one.js"></script>
+</body>
+</html>        
