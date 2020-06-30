@@ -1,8 +1,43 @@
 [
     {
-        "name": "iPhone 11-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
-        "type":"iphone 11"
+        "name": "iPhone 11 Đỏ - 64GB",
+        "price": "19.000.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp"
+        
+    },{
+        "name": "iPhone 11 Đen -64GB",
+        "price": "19.000.000 vnd",
+        "image":"IMG/iPhone/11/1.webp"
+        
+    },{
+        "name": "iPhone 11 Xanh -64GB",
+        "price": "19.000.000 vnd",
+        "image":"IMG/iPhone/11/2.webp"
+        
+    },{
+        "name": "iPhone 11 Trắng -64GB",
+        "price": "19.000.000 vnd",
+        "image":"IMG/iPhone/11/4.webp"
+
+    },{
+        "name": "iPhone 11 Đỏ - 128GB",
+        "price": "19.200.000 vnd",
+        "image":"IMG/iPhone/iphone11-red-select-2019.webp"
+        
+    },{
+        "name": "iPhone 11 Đen -128GB",
+        "price": "19.200.000 vnd",
+        "image":"IMG/iPhone/11/1.webp"
+        
+    },{
+        "name": "iPhone 11 Xanh -128GB",
+        "price": "19.200.000 vnd",
+        "image":"IMG/iPhone/11/2.webp"
+        
+    },{
+        "name": "iPhone 11 Trắng -64GB",
+        "price": "19.200.000 vnd",
+        "image":"IMG/iPhone/11/4.webp"
+        
     }
 ]

@@ -1,13 +1,21 @@
 [
     {
-        "name": "iPhone 8-256G",
+        "name": "iPhone 8 plus 64 GB",
         "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
-        "type":"iphone 11"
+        "image":"IMG/iPhone/8/1.jpg"
+        
+    },{
+        "name": "iPhone 8 plus 128 GB",
+        "price": "15.200.000 vnd",
+        "image":"IMG/iPhone/8/2.jpg"
+        
+    },{
+        "name": "iPhone 8 plus -256G",
+        "price": "15.400.000 vnd",
+        "image":"IMG/iPhone/8/1.jpg"
     },{
         "name": "iPhone 8-256G",
         "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/iphone11-red-select-2019.webp",
-        "type":"iphone 11"
+        "image":"IMG/iPhone/8/1.jpg"
     }
 ]

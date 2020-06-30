@@ -14,9 +14,18 @@ $(window).scroll(function () {
         document.documentElement.scrollTop = 0; //For rest
            
        });
+    //    $('#pro_1').fadeIn();
     } else {
         $('.back-to-top').fadeOut(500);
     };
+    if(h>900){
+        $('#pro_2').fadeIn();
+    
+    };
+    if(h>1500){
+        $('#pro_3').fadeIn(5000);
+    
+    }
 });
 function show() {
     $('#table-search-result').removeClass('hidden');
@@ -28,7 +37,25 @@ function hide() {
        
    
 
-}
+};
+$('.btn_1').click(function () { 
+    alert('hello');
+    $('#content_1_demo').slideToggle(500);
+    // $('#content_2_demo').slideUp(500);
+    // $('#content_3_demo').slideUp(500);
+});
+$('.btn_2').click(function (e) { 
+    $('#content_1_demo').slideUp(500);
+    $('#content_2_demo').slideToggle(500);
+    $('#content_3_demo').slideUp(500);
+    
+});
+$('.btn_3').click(function (e) { 
+    $('#content_1_demo').slideUp(500)
+    $('#content_2_demo').slideUp(500);
+    $('#content_3_demo').slideToggle(500);
+    
+});
 var app = angular.module('demoApp',[]);
 		app.controller('DemoCtrl',function($scope,$http){
             $http.get('JSON/data.json').then(function(res){
@@ -53,7 +80,7 @@ var app = angular.module('demoApp',[]);
                 $scope.list_product_x= res.data
                 
             });
-            $http.get('JSON/iphone_xs.json').then(function(res){
+            $http.get('JSON/iphone_11.json').then(function(res){
                 $scope.product_11= res.data
                 
             });

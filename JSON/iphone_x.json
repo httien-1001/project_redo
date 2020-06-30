@@ -1,44 +1,39 @@
 [
     {
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone X-64GB",
+        "price": "16.000.000 vnd",
+        "image":"IMG/iPhone/x/1.jpg"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone X- 128GB",
+        "price": "16.200.000 vnd",
+        "image":"IMG/iPhone/x/2.webp"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
-    },
-    {
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone X- 256GB",
+        "price": "16.400.000 vnd",
+        "image":"IMG/iPhone/x/3.webp"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone XS -64GB",
+        "price": "17.000.000 vnd",
+        "image":"IMG/iPhone/x/1.jpg"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone XS- 128GB",
+        "price": "17.200.000 vnd",
+        "image":"IMG/iPhone/x/2.webp"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone XS- 256GB",
+        "price": "17.400.000 vnd",
+        "image":"IMG/iPhone/x/3.webp"
     },{
-        "name": "iPhone X-256G",
-        "price": "15.000.000 vnd",
-        "image":"IMG/iPhone/demo.jpg",
-        "type":"iphone 11"
+        "name": "iPhone XS  Max-64GB",
+        "price": "18.000.000 vnd",
+        "image":"IMG/iPhone/x/1.jpg"
+    },{
+        "name": "iPhone XS Max- 128GB",
+        "price": "18.200.000 vnd",
+        "image":"IMG/iPhone/x/2.webp"
+    },{
+        "name": "iPhone XS  Max- 256GB",
+        "price": "18.400.000 vnd",
+        "image":"IMG/iPhone/x/3.webp"
     }
 ]
