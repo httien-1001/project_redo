@@ -39,7 +39,15 @@
                     <div class="main-menu-left">
                         <ul>
                             <li><a href="home.html">Trang chủ</a></li>
-                            <li><a href="product.html">Sản phẩm</a></li>
+                            <li id="sub_menu"><a href="product.html">Sản phẩm</a>
+                                <ul id="submenu " class="">
+                                    <li><a href="product.html">iPhone</a></li>
+                                    <li><a href="product.html">Samsung</a></li>
+                                    <li><a href="product.html">Phụ kiện </a></li>
+                                    <li><a href="product.html">Phụ kiện </a></li>
+
+                                </ul>
+                            </li>
                             <li><a href="about.html">Về chúng tôi</a></li>
                         </ul>
                     </div>
@@ -58,8 +66,13 @@
                 <div class="main-menu-right">
                     <ul>
                         <li><a href="contact.html">Liên hệ</a></li>
-                        <li>
+                        <li class="mem">
                             <a href="member.html">Thành viên</a>
+                            <ul>
+                                <li><a href="login.html">Đăng nhập</a></li>
+                                <li><a href="register.html">Đăng kí</a></li>
+                                <li><a href="member.html#promotion">Ưu đãi thành viên</a></li>
+                            </ul>
                         </li>
                          <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li> 
                     </ul>
@@ -117,52 +130,6 @@
     <script src="CSS/OwlCarousel/dist/owl.carousel.min.js"></script>
      <!-- custom-js -->
     <script src="js/all-in-one.js"></script>
-    <script>
-            $(document).ready(function () {
-        $('.feature-nav li').on('click', function () {
-            var item_clicked = $(this).attr('id');
-            features();
-            $('.overview').delay(1000).queue(function () {
-                features_back(item_clicked);
-            });
-        });
-    });
-
-    function features() {
-        $('.overview h1').animate({
-            right: "1000px"
-        }, 300);
-        $('.overview .feature-left').animate({
-            right: "1000px"
-        }, 700);
-        $('.overview .feature-right').animate({
-            bottom: "300px",
-            opacity: '0'
-        }, 400);
-        $('.overview .feature-bottom').animate({
-            top: "100px",
-            opacity: '0'
-        }, 400);
-
-    }
-
-    function features_back(item_clicked) {
-        $('.overview h1').html('New Header').animate({
-            right: "0"
-        }, 300);
-        $('.overview .feature-left').html('New Left Content').animate({
-            right: "0"
-        }, 500);
-        $('.overview .feature-right').html('New right Content').animate({
-            bottom: "0",
-            opacity: '1'
-        }, 400);
-        $('.overview .feature-bottom').html('New bottom Content').animate({
-            top: "0",
-            opacity: '1'
-        }, 400);
-    }
-    </script>
-    </script>
+   <script src="js/all-in-one.js"></script>
 </body>
 </html>        
